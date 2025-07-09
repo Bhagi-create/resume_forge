@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About ResumeForge - Empowering Career Stories</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fresumeforg6826back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.5"></script>
+</head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-elevation sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-2">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                            <path d="M8 11h8v2H8v-2zm0 4h6v2H8v-2z" fill="white"/>
+                        </svg>
+                        <span class="text-xl font-bold text-primary">ResumeForge</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="resume_builder.html" class="text-text-secondary hover:text-primary transition-colors">Resume Builder</a>
+                    <a href="template_gallery.html" class="text-text-secondary hover:text-primary transition-colors">Templates</a>
+                    <a href="career_resources.html" class="text-text-secondary hover:text-primary transition-colors">Resources</a>
+                    <a href="about_resume_forge.html" class="text-primary font-medium hover:text-secondary transition-colors">About</a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="user_dashboard.html" class="text-text-secondary hover:text-primary transition-colors">Sign In</a>
+                    <a href="resume_builder.html" class="btn-primary">Start Building</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-text-secondary hover:text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+                    <a href="homepage.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Home</a>
+                    <a href="resume_builder.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Resume Builder</a>
+                    <a href="template_gallery.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Templates</a>
+                    <a href="career_resources.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Resources</a>
+                    <a href="about_resume_forge.html" class="block px-3 py-2 text-primary font-medium">About</a>
+                    <a href="user_dashboard.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Sign In</a>
+                    <a href="resume_builder.html" class="block px-3 py-2 btn-primary text-center mt-4">Start Building</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-secondary-50 overflow-hidden py-20">
+        <div class="absolute inset-0 bg-white opacity-50"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6">
+                    Empowering <span class="text-gradient">Career Stories</span>
+                </h1>
+                <p class="text-xl text-text-secondary mb-8 max-w-3xl mx-auto">
+                    We believe every professional deserves a resume that truly reflects their potential. 
+                    ResumeForge transforms the traditionally mundane process of resume building into an inspiring journey of career empowerment.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="resume_builder.html" class="btn-primary text-lg px-8 py-4">
+                        Start Your Story
+                    </a>
+                    <a href="template_gallery.html" class="btn-secondary text-lg px-8 py-4">
+                        Explore Templates
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Our Story</h2>
+                    <div class="space-y-6 text-text-secondary">
+                        <p class="text-lg">
+                            ResumeForge was born from a simple yet powerful realization: talented professionals were being overlooked 
+                            because their resumes didn't tell their stories effectively. Our founder, after witnessing countless 
+                            qualified candidates struggle with generic templates, envisioned a platform that would bridge the gap 
+                            between professional excellence and creative expression.
+                        </p>
+                        <p class="text-lg">
+                            We started with a mission to transform how professionals present themselves to the world. Not just 
+                            another template provider, but a career storytelling platform that helps users craft compelling 
+                            narratives while maintaining the professional standards employers expect.
+                        </p>
+                        <p class="text-lg">
+                            Today, ResumeForge stands as the confident mentor who helps professionals see their worth, the creative 
+                            partner who brings their stories to life, and the strategic advisor who understands what employers want.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Team collaboration" class="rounded-xl shadow-elevation-lg w-full h-96 object-cover" onerror="this.src='https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-transparent to-transparent rounded-xl opacity-20"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Mission & Values</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    We're committed to transforming careers through the power of compelling storytelling and professional design
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Mission -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Empowerment</h3>
+                    <p class="text-text-secondary">
+                        We empower professionals to see their true worth and present their best selves to the world with confidence.
+                    </p>
+                </div>
+
+                <!-- Excellence -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Excellence</h3>
+                    <p class="text-text-secondary">
+                        We maintain the highest standards in design, functionality, and user experience to deliver exceptional results.
+                    </p>
+                </div>
+
+                <!-- Innovation -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Innovation</h3>
+                    <p class="text-text-secondary">
+                        We continuously innovate with AI-powered features and cutting-edge design to stay ahead of industry trends.
+                    </p>
+                </div>
+
+                <!-- Accessibility -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Accessibility</h3>
+                    <p class="text-text-secondary">
+                        We believe career advancement should be accessible to everyone, regardless of background or experience level.
+                    </p>
+                </div>
+
+                <!-- Diversity -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-secondary to-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Diversity</h3>
+                    <p class="text-text-secondary">
+                        We celebrate diverse career paths and create inclusive tools that work for professionals from all industries.
+                    </p>
+                </div>
+
+                <!-- Growth -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-accent to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Growth</h3>
+                    <p class="text-text-secondary">
+                        We're committed to continuous learning and helping our users grow throughout their entire career journey.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Meet Our Team</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Career coaches, design experts, and HR professionals dedicated to your success
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <img src="https://images.pixabay.com/photo/2016/11/18/19/07/happy-1836445_640.jpg" alt="Sarah Mitchell" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    <h3 class="text-xl font-semibold text-primary mb-2">Sarah Mitchell</h3>
+                    <p class="text-secondary font-medium mb-3">Founder & CEO</p>
+                    <p class="text-text-secondary text-sm mb-4">
+                        Former HR Director with 15+ years helping professionals navigate career transitions. 
+                        Passionate about empowering others to tell their career stories.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <span class="px-2 py-1 bg-primary-100 text-primary text-xs rounded-full">Career Strategy</span>
+                        <span class="px-2 py-1 bg-secondary-100 text-secondary text-xs rounded-full">Leadership</span>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Marcus Chen" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    <h3 class="text-xl font-semibold text-primary mb-2">Marcus Chen</h3>
+                    <p class="text-secondary font-medium mb-3">Head of Design</p>
+                    <p class="text-text-secondary text-sm mb-4">
+                        Award-winning designer with expertise in user experience and visual storytelling. 
+                        Creates templates that balance creativity with professional standards.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <span class="px-2 py-1 bg-primary-100 text-primary text-xs rounded-full">UX Design</span>
+                        <span class="px-2 py-1 bg-accent-100 text-accent text-xs rounded-full">Visual Design</span>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Dr. Emily Rodriguez" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" onerror="this.src='https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'; this.onerror=null;" />
+                    <h3 class="text-xl font-semibold text-primary mb-2">Dr. Emily Rodriguez</h3>
+                    <p class="text-secondary font-medium mb-3">Career Coach</p>
+                    <p class="text-text-secondary text-sm mb-4">
+                        Certified career counselor and organizational psychologist. Specializes in career transitions 
+                        and helping professionals identify their unique value propositions.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <span class="px-2 py-1 bg-secondary-100 text-secondary text-xs rounded-full">Career Coaching</span>
+                        <span class="px-2 py-1 bg-accent-100 text-accent text-xs rounded-full">Psychology</span>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <img src="https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_640.jpg" alt="James Thompson" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    <h3 class="text-xl font-semibold text-primary mb-2">James Thompson</h3>
+                    <p class="text-secondary font-medium mb-3">Technical Lead</p>
+                    <p class="text-text-secondary text-sm mb-4">
+                        Full-stack developer with expertise in AI and machine learning. Builds the intelligent 
+                        features that make ResumeForge's content suggestions so effective.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <span class="px-2 py-1 bg-primary-100 text-primary text-xs rounded-full">AI/ML</span>
+                        <span class="px-2 py-1 bg-secondary-100 text-secondary text-xs rounded-full">Development</span>
+                    </div>
+                </div>
+
+                <!-- Team Member 5 -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Lisa Park" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" onerror="this.src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    <h3 class="text-xl font-semibold text-primary mb-2">Lisa Park</h3>
+                    <p class="text-secondary font-medium mb-3">HR Consultant</p>
+                    <p class="text-text-secondary text-sm mb-4">
+                        Former Fortune 500 recruiter with deep insights into ATS systems and hiring trends. 
+                        Ensures our templates meet modern recruitment standards.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <span class="px-2 py-1 bg-accent-100 text-accent text-xs rounded-full">Recruiting</span>
+                        <span class="px-2 py-1 bg-primary-100 text-primary text-xs rounded-full">ATS Expert</span>
+                    </div>
+                </div>
+
+                <!-- Team Member 6 -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="David Kumar" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'; this.onerror=null;" />
+                    <h3 class="text-xl font-semibold text-primary mb-2">David Kumar</h3>
+                    <p class="text-secondary font-medium mb-3">Content Strategist</p>
+                    <p class="text-text-secondary text-sm mb-4">
+                        Professional writer and content strategist who crafts compelling resume content and 
+                        career resources that resonate with both users and employers.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <span class="px-2 py-1 bg-secondary-100 text-secondary text-xs rounded-full">Content Strategy</span>
+                        <span class="px-2 py-1 bg-accent-100 text-accent text-xs rounded-full">Writing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why We're Different -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-secondary-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Why We're Different</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    We're not just another template provider. We're your career storytelling partner.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary mb-2">AI-Powered Content Suggestions</h3>
+                            <p class="text-text-secondary">
+                                Our intelligent system analyzes your industry and role to suggest compelling content 
+                                that highlights your unique value proposition.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary mb-2">ATS Optimization</h3>
+                            <p class="text-text-secondary">
+                                Every template is designed to pass Applicant Tracking Systems while maintaining 
+                                visual appeal and professional presentation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary mb-2">Expert Review Services</h3>
+                            <p class="text-text-secondary">
+                                Get personalized feedback from career coaches and HR professionals who understand 
+                                what employers are looking for.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-primary mb-2">Storytelling Approach</h3>
+                            <p class="text-text-secondary">
+                                We help you craft a compelling career narrative that goes beyond listing duties 
+                                to showcase your impact and potential.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Professional working on laptop" class="rounded-xl shadow-elevation-lg w-full h-96 object-cover" onerror="this.src='https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'; this.onerror=null;" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-transparent to-transparent rounded-xl opacity-20"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Statistics -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Impact</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Real results from professionals who chose to invest in their career story
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-primary mb-2">500K+</div>
+                    <div class="text-text-secondary font-medium">Resumes Created</div>
+                    <div class="text-sm text-text-secondary mt-1">Across all industries</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-secondary mb-2">85%</div>
+                    <div class="text-text-secondary font-medium">Interview Rate Increase</div>
+                    <div class="text-sm text-text-secondary mt-1">Average improvement</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">$12K</div>
+                    <div class="text-text-secondary font-medium">Average Salary Increase</div>
+                    <div class="text-sm text-text-secondary mt-1">For career changers</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-primary mb-2">4.9/5</div>
+                    <div class="text-text-secondary font-medium">User Satisfaction</div>
+                    <div class="text-sm text-text-secondary mt-1">Based on 50K+ reviews</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Timeline -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Journey</h2>
+                <p class="text-xl text-text-secondary">
+                    Key milestones in our mission to transform career storytelling
+                </p>
+            </div>
+
+            <div class="space-y-8">
+                <!-- Timeline Item 1 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                        <span class="text-white font-bold text-sm">2020</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Company Founded</h3>
+                        <p class="text-text-secondary">
+                            ResumeForge launched with a vision to transform how professionals present their career stories. 
+                            Started with 5 premium templates and a simple builder.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center flex-shrink-0">
+                        <span class="text-white font-bold text-sm">2021</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-2">AI Integration</h3>
+                        <p class="text-text-secondary">
+                            Introduced AI-powered content suggestions, revolutionizing how users craft compelling 
+                            resume content. Reached 10,000 active users.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
+                        <span class="text-white font-bold text-sm">2022</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Expert Services Launch</h3>
+                        <p class="text-text-secondary">
+                            Launched professional review services with certified career coaches. 
+                            Expanded template library to 50+ designs across all industries.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                        <span class="text-white font-bold text-sm">2023</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-2">100K Users Milestone</h3>
+                        <p class="text-text-secondary">
+                            Reached 100,000 users and launched advanced ATS optimization features. 
+                            Introduced collaborative editing and sharing capabilities.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 5 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center flex-shrink-0">
+                        <span class="text-white font-bold text-sm">2024</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Industry Recognition</h3>
+                        <p class="text-text-secondary">
+                            Won "Best Career Tool" award and reached 500,000 resumes created. 
+                            Launched mobile app and expanded to international markets.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 6 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
+                        <span class="text-white font-bold text-sm">2025</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Future Vision</h3>
+                        <p class="text-text-secondary">
+                            Continuing to innovate with advanced AI features, expanded expert services, 
+                            and new tools for career development and professional growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Security -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Trust & Security</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Your privacy and data security are our top priorities
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Security -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Bank-Level Security</h3>
+                    <p class="text-text-secondary mb-4">
+                        256-bit SSL encryption and SOC 2 compliance ensure your personal information is always protected.
+                    </p>
+                    <div class="flex justify-center space-x-2">
+                        <span class="px-2 py-1 bg-primary-100 text-primary text-xs rounded-full">SSL Encrypted</span>
+                        <span class="px-2 py-1 bg-secondary-100 text-secondary text-xs rounded-full">SOC 2</span>
+                    </div>
+                </div>
+
+                <!-- Privacy -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Privacy First</h3>
+                    <p class="text-text-secondary mb-4">
+                        We never sell your data. Your resume content is private and only accessible to you and authorized reviewers.
+                    </p>
+                    <div class="flex justify-center space-x-2">
+                        <span class="px-2 py-1 bg-accent-100 text-accent text-xs rounded-full">GDPR Compliant</span>
+                        <span class="px-2 py-1 bg-primary-100 text-primary text-xs rounded-full">No Data Sales</span>
+                    </div>
+                </div>
+
+                <!-- Professional -->
+                <div class="card text-center hover:shadow-elevation-lg transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">Professional Standards</h3>
+                    <p class="text-text-secondary mb-4">
+                        Certified career coaches and HR professionals maintain the highest ethical standards in all services.
+                    </p>
+                    <div class="flex justify-center space-x-2">
+                        <span class="px-2 py-1 bg-secondary-100 text-secondary text-xs rounded-full">Certified Coaches</span>
+                        <span class="px-2 py-1 bg-accent-100 text-accent text-xs rounded-full">Ethical Standards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary to-primary-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                Ready to Transform Your Career Story?
+            </h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+                Join thousands of professionals who've already elevated their career narrative with ResumeForge
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="resume_builder.html" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Start Building Now
+                </a>
+                <a href="template_gallery.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors">
+                    Browse Templates
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <svg class="w-8 h-8 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                            <path d="M8 11h8v2H8v-2zm0 4h6v2H8v-2z" fill="white"/>
+                        </svg>
+                        <span class="text-xl font-bold">ResumeForge</span>
+                    </div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        Empowering professionals to craft compelling career narratives that open doors and create opportunities.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-primary-200 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-primary-200 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-primary-200 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.222.083.343-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-primary-200">
+                        <li><a href="resume_builder.html" class="hover:text-white transition-colors">Resume Builder</a></li>
+                        <li><a href="template_gallery.html" class="hover:text-white transition-colors">Templates</a></li>
+                        <li><a href="career_resources.html" class="hover:text-white transition-colors">Career Resources</a></li>
+                        <li><a href="user_dashboard.html" class="hover:text-white transition-colors">Dashboard</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-primary-200">
+                        <li><a href="about_resume_forge.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-800 mt-12 pt-8 text-center text-primary-200">
+                <p>&copy; 2025 ResumeForge. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate statistics on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counters = entry.target.querySelectorAll('[data-count]');
+                    counters.forEach(counter => {
+                        const target = parseInt(counter.dataset.count);
+                        const duration = 2000;
+                        const increment = target / (duration / 16);
+                        let current = 0;
+                        
+                        const updateCounter = () => {
+                            current += increment;
+                            if (current < target) {
+                                counter.textContent = Math.floor(current).toLocaleString();
+                                requestAnimationFrame(updateCounter);
+                            } else {
+                                counter.textContent = target.toLocaleString();
+                            }
+                        };
+                        
+                        updateCounter();
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe statistics section
+        const statsSection = document.querySelector('.grid.md\\:grid-cols-2.lg\\:grid-cols-4');
+        if (statsSection) {
+            observer.observe(statsSection);
+        }
+
+        // Add hover effects to team cards
+        const teamCards = document.querySelectorAll('.card');
+        teamCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-4px)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
